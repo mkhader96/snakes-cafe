@@ -1,4 +1,4 @@
-# LAB - Class xx
+# LAB - Class 01
 
 ## Project: Snakes-Cafe
 
