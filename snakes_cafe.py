@@ -1,12 +1,13 @@
 def order():
     
     while True:
-        order = input('> ').capitalize()
+        order = input('> ').title()
         if order.lower() == 'quit':
             
             print('Thank you for your order!')
             break
         if order in orders:
+            
             orders[order] += 1
             if orders[order] == 1:
                 print(f'** {orders[order]} order of {order} has been added to your meal **')
